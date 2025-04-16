@@ -5,7 +5,7 @@ from pymongo import MongoClient
 def connect_to_nosql():
     """Establishes a connection to a NoSQL database."""
     try:
-        client = MongoClient("mongodb://3.148.188.211:27017/")
+        client = MongoClient("mongodb://3.145.52.120:8501/")
         # Test the connection
         client.server_info()
         db = client["world"]  # Use the existing database
