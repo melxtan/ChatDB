@@ -4,4 +4,4 @@ import pymysql
 
 def connect_to_rdbms():
     """Establishes a connection to an RDBMS."""
-    return pymysql.connect(host="3.145.52.120", user="root", password="Dsci-551", database="dsci551")
+    return pymysql.connect(host="3.129.21.202", user="root", password="Dsci-551", database="dsci551")
